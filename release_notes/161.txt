@@ -1,0 +1,4 @@
+- New rider register experience
+- Animated Maps
+- New language selection setting
+- New map setting (for demonstration purposes only)

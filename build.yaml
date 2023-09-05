@@ -1,0 +1,53 @@
+targets:
+  $default:
+    sources:
+      - pubspec.yaml
+      - $package$
+      - lib/**
+      - graphql/**
+      - lib/graphql/fragments/**.fragment.graphql
+      - rider.schema.gql
+    builders:
+      graphql_codegen:
+        options:
+          addTypename: false
+          clients:
+            - graphql
+            - graphql_flutter
+          scalars:
+            DateTime:
+              type: DateTime
+              fromJsonFunctionName: fromGraphQLDateTimeToDartDateTime
+              toJsonFunctionName: fromDartDateTimeToGraphQLDateTime
+              import: package:ridy/graphql/scalars/datetime.dart
+            Timestamp:
+              type: DateTime
+              fromJsonFunctionName: fromGraphQLTimestampToDartDateTime
+              toJsonFunctionName: fromDartDateTimeToGraphQLTimestamp
+              import: package:ridy/graphql/scalars/timestamp.dart
+            ConnectionCursor:
+              type: String
+              fromJsonFunctionName: fromGraphQLConnectionCursorToDartString
+              toJsonFunctionName: fromDartStringToGraphQLConnectionCursor
+              import: package:ridy/graphql/scalars/connection_cursor.dart
+      # json_serializable:
+      #   options:
+      #     include_if_null: false
+      # artemis:
+      #   options:
+      #     scalar_mapping:
+      #       - custom_parser_import: "../scalars/connection_cursor.dart"
+      #         graphql_type: ConnectionCursor
+      #         dart_type: String
+      #       - custom_parser_import: "../scalars/timestamp.dart"
+      #         graphql_type: Timestamp
+      #         dart_type: DateTime
+      #       - custom_parser_import: "../scalars/datetime.dart"
+      #         graphql_type: DateTime
+      #         dart_type: DateTime
+
+      #     fragments_glob: lib/graphql/fragments/**.fragment.graphql
+      #     schema_mapping:
+      #       - output: lib/graphql/generated/graphql_api.dart
+      #         schema: lib/schema.gql
+      #         queries_glob: lib/**.graphql

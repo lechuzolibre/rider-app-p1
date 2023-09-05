@@ -1,0 +1,82 @@
+fragment Point on Point {
+  lat
+  lng
+}
+
+fragment CurrentOrder on Order {
+  id
+  status
+  points {
+    ...Point
+  }
+  driver {
+    id
+    firstName
+    lastName
+    media {
+      address
+    }
+    mobileNumber
+    carPlate
+    car {
+      name
+    }
+    carColor {
+      name
+    }
+    rating
+  }
+  service {
+    media {
+      address
+    }
+    name
+    prepayPercent
+    cancellationTotalFee
+  }
+  directions {
+    ...Point
+    lat
+    lng
+  }
+  etaPickup
+  paidAmount
+  costAfterCoupon
+  costBest
+  currency
+  addresses
+  waitMinutes
+  startTimestamp
+  durationBest
+  riderLastSeenMessagesAt
+  conversations {
+    sentAt
+  }
+}
+
+fragment ChatMessage on OrderMessage {
+  id
+  content
+  sentByDriver
+  sentAt
+}
+
+fragment ChatDriver on Driver {
+  id
+  firstName
+  lastName
+  mobileNumber
+  media {
+    address
+  }
+}
+
+fragment ChatRider on Rider {
+  id
+  firstName
+  lastName
+  mobileNumber
+  media {
+    address
+  }
+}

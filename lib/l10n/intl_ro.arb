@@ -1,0 +1,287 @@
+{
+  "loading": "Se încarcă",
+  "wallet_empty_state_message": "Nicio înregistrare în istoric.",
+  "enum_rider_transaction_deduct_order_fee": "Taxă de comandă",
+  "enum_rider_transaction_deduct_withdraw": "Retragere",
+  "enum_rider_transaction_deduct_correction": "Corecție",
+  "enum_unknown": "Necunoscut",
+  "enum_rider_transaction_recharge_in_app_payment": "Plată în aplicație",
+  "enum_rider_transaction_recharge_gift": "Cadou",
+  "enum_rider_transaction_recharge_correction": "Corecție",
+  "enum_rider_transaction_recharge_bank_transfer": "Transfer bancar",
+  "top_up_sheet_pay_button": "Plată",
+  "service_selection_book_now": "Rezervă acum",
+  "action_cancel": "Anulează",
+  "copyright_notice": "Drepturi de autor © {company}, Toate drepturile rezervate.",
+  "@copyright_notice": {
+    "placeholders": {
+      "company": {}
+    }
+  },
+  "menu_about": "Despre",
+  "menu_login": "Conectare",
+  "menu_profile": "Profil",
+  "menu_wallet": "Portofel",
+  "menu_trip_history": "Istoric călătorii",
+  "menu_announcements": "Anunțuri",
+  "menu_saved_locations": "Locații salvate",
+  "action_save": "Salvează",
+  "create_address_name_empty_error": "Introduceți numele locației",
+  "create_address_title_textfield_hint": "Titlu",
+  "action_delete": "Șterge",
+  "trip_history_empty_state_message": "Nicio comandă anterioară înregistrată.",
+  "profile_firstname": "Prenume",
+  "profile_lastname": "Nume",
+  "profile_email": "E-mail",
+  "profile_gender": "Gen",
+  "enum_gender_male": "Masculin",
+  "enum_gender_female": "Feminin",
+  "login_cell_number_textfield_hint": "Număr de telefon",
+  "login_cell_number_empty_error": "Introduceți numărul de telefon în format corect",
+  "action_next": "Următorul",
+  "verify_phone_code_empty_message": "Codul de verificare nu este introdus.",
+  "wallet_activities_heading": "Activitate",
+  "menu_logout": "Deconectare",
+  "enum_gender_unknown": "Necunoscut",
+  "enum_address_type_home": "Acasă",
+  "enum_address_type_work": "Muncă",
+  "enum_address_type_partner": "Partener",
+  "enum_address_type_other": "Altul",
+  "message_notification_permission_denined_message": "Permisiunea de notificare a fost refuzată anterior. Pentru a primi notificări pentru comenzile noi, puteți activa permisiunea din setările aplicației.",
+  "message_notification_permission_title": "Permisiune notificare",
+  "action_ok": "OK",
+  "menu_website": "Site web",
+  "action_confirm_and_reserve_ride": "Confirmă și rezervă o cursă",
+  "title_reserve_ride": "Rezervă o cursă",
+  "error_region_unsupported": "Regiunea nu este suportată.",
+  "action_confirm": "Confirmă",
+  "title_wait_time": "Timp de așteptare",
+  "notice_tip_title": "Doriți să adăugați o bacșiș?",
+  "notice_tip_description": "Adăugarea bacșișului este opțională. Puteți adăuga orice sumă doriți ca bacșiș pentru șofer.",
+  "action_pay_for_ride": "Plătiți călătoria",
+  "action_confirm_and_pay": "Confirmați și plătiți",
+  "action_add_photo": "Adăugați fotografie",
+  "complaint_submit_success_message": "Plângerea a fost înregistrată. Vă rugăm să așteptați un contact din partea reprezentantului nostru de suport în legătură cu problema dvs.",
+  "error_field_cant_be_empty": "Nu poate fi gol",
+  "issue_description_placeholder": "Scrieți o descriere a problemei dvs...",
+  "issue_subject_placeholder": "Subiect",
+  "issue_submit_description": "Puteți raporta orice problemă pe care ați avut-o cu călătoria dvs. Vă vom ajuta cu problema într-un apel.",
+  "issue_submit_title": "Raportați o problemă",
+  "issue_submit_button": "Raportați problema",
+  "trip_information_title": "Informații despre călătorie",
+  "payment_in_cash": "Numerar",
+  "payment_method_title": "Metodă de plată",
+  "button_ride_safety": "Siguranța călătoriei",
+  "status_title_driver_arrived": "Întâlniți șoferul la punctul de preluare",
+  "status_title_trip_started": "Plecare spre destinație",
+  "welcome_card_subtitle": "Unde mergeți?",
+  "welcome_card_textbox_placeholder": "Unde este destinația dvs.?",
+  "welcome_card_greeting": "Bună {firstName}!",
+  "@welcome_card_greeting": {
+    "placeholders": {
+      "firstName": {}
+    }
+  },
+  "login_title": "Autentificare",
+  "login_body": "Mai întâi, trebuie să vă autentificați pentru a rezerva călătoria. Un cod de verificare va fi trimis la numărul dvs. de telefon.",
+  "terms_and_condition_text": "Am citit și sunt de acord cu ",
+  "terms_and_condition_button": "Termenii și condițiile",
+  "login_verify_code_title": "Introduceți codul",
+  "login_verify_code_body": "Codul a fost trimis la numărul dvs. de telefon",
+  "action_continue": "Continuați",
+  "current_location": "Locația actuală",
+  "your_destination": "Destinația dvs.",
+  "add_stop": "Adăugați oprire",
+  "action_choose_on_map": "alegeți de pe hartă",
+  "message_title_location": "Locație",
+  "message_body_location": "Nu am putut obține locația dvs. curentă de la GPS-ul dispozitivului. Utilizați câmpul de căutare pentru a selecta locația de preluare.",
+  "menu_reserved_rides": "Călătorii rezervate",
+  "reservation_empty_state_title": "Nicio rezervare!",
+  "reservation_empty_state_body": "Vei putea vedea rezervările viitoare după ce le vei face pe ecranul principal.",
+  "action_cancel_ride": "Anulează călătoria",
+  "enum_address_type_gym": "Sală de sport",
+  "enum_address_type_parent_house": "Casa părinților",
+  "enum_address_type_cafe": "Cafenea",
+  "enum_address_type_park": "Parc",
+  "action_add_favorite_location": "Adaugă locație favorită",
+  "favorite_locations_list_title": "Locații favorite",
+  "favorite_locations_list_body": "Puteți salva locațiile dvs. favorite pentru un acces mai ușor",
+  "favorite_location_details_title": "Denumiți locația favorită",
+  "textbox_error_select_type_address": "Selectați tipul de adresă",
+  "placeholder_type": "Tip",
+  "action_delete_account": "Ștergeți contul",
+  "message_delete_account_title": "Ștergere cont",
+  "message_delete_account_body": "Sunteți sigur că doriți să ștergeți contul dvs.? Vă puteți conecta din nou în decurs de 30 de zile pentru a restaura contul. După această perioadă, datele dvs. vor fi complet eliminate, inclusiv toate creditele rămase.",
+  "action_edit": "Editați",
+  "action_confirm_location": "Confirmați locația",
+  "action_coupon_code": "Cod cupon",
+  "enter_coupon_dialog_title": "Cod cupon",
+  "enter_coupon_dialog_body": "Introduceți codul dvs. de cupon pentru a fi aplicat la preț",
+  "enter_coupon_placeholder": "Introduceți codul cuponului",
+  "looking_dialog_title": "Solicitarea călătoriei",
+  "looking_dialog_body": "Căutăm cel mai apropiat șofer pentru dvs.",
+  "action_cancel_request": "Anulați solicitarea",
+  "rate_ride_title": "Cum a fost călătoria dvs.?",
+  "rate_ride_body": "Ajutați-ne să îmbunătățim experiența dvs. prin evaluarea șoferului dvs.",
+  "rate_ride_good_points": "Puncte pozitive",
+  "rate_ride_negative_points": "Puncte negative",
+  "rate_ride_comment_title": "Adăugați un comentariu",
+  "rate_ride_comment_placeholder": "scrieți-vă comentariul...",
+  "action_send_feedback": "Trimiteți feedback",
+  "action_ride_options": "Opțiuni de călătorie",
+  "ride_options_title": "Opțiuni de călătorie",
+  "ride_options_wait_time_action": "Timp de așteptare",
+  "ride_safety_title": "Siguranța călătoriei",
+  "ride_safety_share_trip_information": "Partajarea informațiilor călătoriei",
+  "ride_safety_sos": "SOS",
+  "sos_title": "Semnal de detresă",
+  "sos_body": "Semnalele de detresă sunt pentru situații de urgență și contactarea autorităților, cum ar fi poliția sau forțele de ordine. Vă rugăm să utilizați semnalul de detresă în cazul în care întâmpinați o situație de urgență și aveți nevoie de asistență imediată.",
+  "sos_sent_alert": "SOS trimis",
+  "sos_ok_action": "Este o situație de urgență",
+  "share_trip_text_locations": "Sunt în drum spre {destination} din {pickup}.",
+  "@share_trip_text_locations": {
+    "placeholders": {
+      "destination": {},
+      "pickup": {}
+    }
+  },
+  "share_trip_text_driver": " Numele șoferului meu este {firstName} {lastName}, numărul de telefon mobil este +{mobileNumber}.",
+  "@share_trip_text_driver": {
+    "placeholders": {
+      "firstName": {},
+      "lastName": {},
+      "mobileNumber": {}
+    }
+  },
+  "share_trip_started_time": " Călătoria a început la {startTime} și mă aștept să dureze aproximativ {duration} minute",
+  "@share_trip_started_time": {
+    "placeholders": {
+      "startTime": {},
+      "duration": {}
+    }
+  },
+  "share_trip_not_arrived_time": "Mă aștept ca călătoria să dureze aproximativ {duration} minute odată ce mă urc în mașina șoferului.",
+  "@share_trip_not_arrived_time": {
+    "placeholders": {
+      "duration": {}
+    }
+  },
+  "announcements_empty_state_title": "Nicio notificare încă!",
+  "announcements_empty_state_body": "Te vom notifica când apar noi anunțuri.",
+  "action_set_location": "Setează Locația",
+  "trip_history_empty_state_title": "Nicio înregistrare!",
+  "location_not_found_alert_dialog_title": "Locație",
+  "location_not_found_alert_dialog_body": "Nu am putut obține locația curentă a dispozitivului tău folosind GPS-ul. Verifică permisiunile de localizare pentru aplicație în setările dispozitivului. În mod alternativ, poți utiliza câmpul de căutare de mai sus pentru a selecta punctul de preluare.",
+  "gift_card_title": "Introdu Codul Cadou",
+  "gift_card_body": "Introdu codul tău cadou",
+  "gift_card_text_placeholder": "Introdu codul cadou",
+  "action_apply": "Aplică",
+  "order_status_should_be_arrived": "În drum spre tine!",
+  "order_status_arriving_in": "Sosire în {minutes} minute",
+  "@order_status_arriving_in": {
+    "placeholders": {
+      "minutes": {}
+    }
+  },
+  "message_title_warning": "Atenție",
+  "cancelation_fee_confirmation_body": "Anularea serviciului după ce șoferul a acceptat călătoria implică o penalizare de anulare în valoare de {fee}. Confirmați?",
+  "@cancelation_fee_confirmation_body": {
+    "placeholders": {
+      "fee": {}
+    }
+  },
+  "confirm": "Confirmă",
+  "add_credit_select_payment_method": "Selectează Metoda de Plată:",
+  "add_credit_custom_credit_placeholder": "Adaugă Credit Personalizat",
+  "add_credit_custom_credit_text_placeholder": "Personalizat",
+  "invoice_item_tip": "Sfat",
+  "invoice_item_wallet": "Portofel",
+  "invoice_item_total": "Total",
+  "add_credit_dialog_title": "Adaugă Credit",
+  "add_credit_choose_amount": "Alege suma",
+  "action_ride_preferences": "Preferințe de Călătorie",
+  "ride_preferences_title": "Preferințe de Călătorie",
+  "action_confirm_and_continue": "Confirmă și Continuă",
+  "action_see_reserved_rides": "Vezi Călătorii Rezervate",
+  "ride_reserved_dialog_title": "Călătoria ta este rezervată.",
+  "ride_reserved_dialog_body": "Poți verifica călătoriile rezervate în meniu pentru a vedea informații despre această călătorie.",
+  "alert_coupon_unavailable": "Cuponul nu este disponibil",
+  "minutes_format": "{minutes} minute",
+  "@minutes_format": {
+    "placeholders": {
+      "minutes": {}
+    }
+  },
+  "action_back": "Înapoi",
+  "wallet_card_title": "{appName} Portofel",
+  "@wallet_card_title": {
+    "placeholders": {
+      "appName": {}
+    }
+  },
+  "action_redeem_gift_card": "Răscumpără Card Cadou",
+  "order_status_canceled": "Anulată",
+  "action_skip_for_now": "Omitere pentru acum",
+  "onboarding_select_language_title": "Selectează Limba",
+  "onboarding_first_page_title": "Bine ai venit la {appName}!",
+  "@onboarding_first_page_title": {
+    "placeholders": {
+      "appName": {}
+    }
+  },
+  "onboarding_first_page_body": "Serviciul de taxi conceput pentru confortul tău \n Ai călătorii cu șoferii preferați și alege preferințele de călătorie",
+  "onboarding_second_page_title": "Fii recompensat!",
+  "onboarding_second_page_body": "primești bonusuri suplimentare pentru recomandarea unui prieten, finalizarea călătoriilor și multe altele...",
+  "onboarding_sign_in_title": "Conectează-te",
+  "onboarding_sign_in_body": "Ești la doar câțiva pași distanță de a te conecta și a începe o călătorie confortabilă",
+  "distanceMeters": "{distance} m",
+  "@distanceMeters": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "distanceKm": "{distance} km",
+  "@distanceKm": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "distanceFeet": "{distance} ft",
+  "@distanceFeet": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "distanceMiles": "{distance} mi",
+  "@distanceMiles": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "register_title_name": "Name",
+  "register_title_verify_number": "Verify number",
+  "login_enter_phone_subtitle": "To begin booking your ride, please sign in first. We will then send a code to your phone number.",
+  "action_resend_code": "Resend Code",
+  "notice_resend_code_in_seconds": "Resend code in {seconds} seconds",
+  "@notice_resend_code_in_seconds": {
+    "placeholders": {
+      "seconds": {}
+    }
+  },
+  "sos_send_error": "There was a problem encountered while attempting to send your SOS signal. Please make another attempt or contact 911 directly.",
+  "complaint_submit_error_message": "The submission of your complaint was unsuccessful, likely due to connectivity issues. Please try again.",
+  "languageSettings": "Language Settings",
+  "mapSettings": "Map Settings",
+  "settings": "Settings",
+  "actionYes": "Yes",
+  "actionNo": "No",
+  "messageConfirmAddressDelete": "Are you sure you want to delete this address?"
+}

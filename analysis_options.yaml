@@ -1,0 +1,7 @@
+include: package:flutter_lints/flutter.yaml
+analyzer:
+  exclude:
+    - "**.g.dart"
+    - "**.gql.dart"
+    - "**.graphql.dart"
+    - "lib/l10n/**.dart"

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="notification_arrived_title">Arrived!</string>
+  <string name="notification_arrived_body">Your ride has arrived at your location</string>
+  <string name="notification_started_title">Started</string>
+  <string name="notification_started_body">The trip has begun</string>
+  <string name="notification_waiting_for_pay_title">Waitong for payment</string>
+  <string name="notification_waiting_for_pay_body">The trip has now ended. Please proceed with the payment</string>
+  <string name="notification_finished_title">Finished</string>
+  <string name="notification_finished_body">The trip has been completed and the payment has been settled from your wallet</string>
+  <string name="notification_new_message_title">New Message</string>
+  <string name="notification_cancel_title">Canceled</string>
+  <string name="notification_cancel_body">Your trip has been cancelled. You can place a new order again</string>
+  <string name="notification_found_title">Found</string>
+  <string name="notification_found_body">The driver is on their way to your location</string>
+  <string name="notification_booking_assigned_title">Booking Assigned!</string>
+  <string name="notification_booking_assigned_body">Hey! Your ride on %1$s has been confirmed and a driver has been assigned to you.</string>
+  <string name="facebook_app_id">[APP_ID]</string>
+</resources>
